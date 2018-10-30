@@ -28,5 +28,8 @@
 21. git clone git@github.com:PromptRetriever/awesome-github.git // clone repository in GitHub to local folder
 22. git checkout -b dev // create and switches to new branch
 	**the same as 
-	1) git branch dev + 2) git checkout dev
-23. git branch // see the branch status
+	1) git branch dev // create new branch + 2) git checkout dev // switch to dev branch
+23. git branch // see the branch status, wiht * is the current branch
+24. git checkout master // switch back to master branch
+25. git merge dev // merge the dev branch to master branch
+26. git branch -d dev // delete the dev branch
