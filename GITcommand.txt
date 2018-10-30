@@ -29,3 +29,4 @@
 22. git checkout -b dev // create and switches to new branch
 	**the same as 
 	1) git branch dev + 2) git checkout dev
+23. git branch // see the branch status
