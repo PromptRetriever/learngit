@@ -33,3 +33,4 @@
 24. git checkout master // switch back to master branch
 25. git merge dev // merge the dev branch to master branch
 26. git branch -d dev // delete the dev branch
+27. git log --graph --pretty=oneline --abbrev-commit // display the log graph
