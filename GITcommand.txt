@@ -14,6 +14,9 @@
 11. git reflog // display all version
 12. git reset --hard 1094a(submit id) // back the submit id file
 13. cat readme.txt // display the content of the file
-14. git checkout -- readme.txt // cancel the changes in work area
+14. git checkout -- readme.txt // cancel the changes in work area, and find back the delete file
 15. git reset HEAD readme.txt // cancel the changes in stage area and back to work area
-
+16. rm readme.txt // delet the file
+17. git rm //delet in git stage area
+18. git commit -m "remove readme.txt" // delete it in GIT area
+19. git checkout -- readme.txt // find back the file to workarea
