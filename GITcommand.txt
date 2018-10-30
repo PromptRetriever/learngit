@@ -1,0 +1,7 @@
+﻿1. pwd // see the path of the repository
+2. git init // create .git file
+**Attention: use Notepad++ with UTF-8 without BOM to create file
+3. vi readme.txt // edit the file or create the file
+**i //edit mode **ESC + :wq //save and exit **ESC + :q //no save and exit
+4. git add readme.txt // add the file to the "stage area"
+5. git commit -m "the discribe of the modify" // commit the files to the "GIT"
