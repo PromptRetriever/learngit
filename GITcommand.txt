@@ -25,4 +25,4 @@
 	2) build new repository in GitHub and push the local repository to GitHub use following commands
 		a) git remote add origin git@github.com:PromptRetriever/learngit.git
 		b) git push -u origin master
-
+21 git clone git@github.com:PromptRetriever/awesome-github.git // clone repository in GitHub to local folder
