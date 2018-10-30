@@ -5,3 +5,13 @@
 **i //edit mode **ESC + :wq //save and exit **ESC + :q //no save and exit
 4. git add readme.txt // add the file to the "stage area"
 5. git commit -m "the discribe of the modify" // commit the files to the "GIT"
+6. git status // see the staus of the "work tree, stage and GIT areas"
+7. git diff readme.txt // see the different of the change version
+8. git log // see the logfiles with long commit id
+9. git log --pretty=oneline // every submit log is dislayed in one line
+10. git reset --hard HEAD^ // back 1 version 
+**HEAD^^ // back 2 version **HEAD~100 // back 100 version
+11. git reflog // display all version
+12. git reset --hard 1094a(submit id) // back the submit id file
+13. cat readme.txt // display the content of the file
+
