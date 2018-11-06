@@ -40,3 +40,4 @@
 31. git stash apply // restore the task from cache area to work area without delete stash content
 32. git stash drop // delete stash content in cache area
 33. git stash pop // =git stash apply + git stash drop
+34. git branch -D dev // with "D" not "d", delete the branch without merged
