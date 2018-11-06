@@ -35,4 +35,8 @@
 26. git branch -d dev // delete the dev branch
 27. git log --graph --pretty=oneline --abbrev-commit // display the log graph
 28. git merge --no-ff -m "no-ff merge" dev // keep the sub-branch and create a new commit
-
+29. git stash // buffer the task at the work area to cache area.
+30. git stash list // see the task in cache area
+31. git stash apply // restore the task from cache area to work area without delete stash content
+32. git stash drop // delete stash content in cache area
+33. git stash pop // =git stash apply + git stash drop
