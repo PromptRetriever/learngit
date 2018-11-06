@@ -53,6 +53,9 @@ then **git add, git commit -m "xxx", git push origin dev1**
 then build contact dev1 in local1 with remote dev1. then **git pull**.
 maybe conflict create. then solve the conflict use **git add and commit**
 42. git rebase // difficult to understand and using?????
-
-
+43. git tag // show the all tag list
+44. git tag v1.0 // tag the current commit
+45. git tag v0.9 f52c633 // tag the commit id f52c633
+46. git show v0.9 // show the information of v1.0
+47. git tag -a v0.1 -m "version 0.1 released" 1094adb // tag the commit id 1094adb with declation
 
