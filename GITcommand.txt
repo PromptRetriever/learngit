@@ -34,3 +34,5 @@
 25. git merge dev // merge the dev branch to master branch
 26. git branch -d dev // delete the dev branch
 27. git log --graph --pretty=oneline --abbrev-commit // display the log graph
+28. git merge --no-ff -m "no-ff merge" dev // keep the sub-branch and create a new commit
+
