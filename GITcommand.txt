@@ -45,5 +45,14 @@
 36. git remote -v // see the fetch and push address, if there is not push authority, no push address!
 37. git push origin master // push the master branch to remote repository
 38. git push origin dev // push the dev branch to remote repository
+**after clone, local2(local repository2) will be created. There is only the master branch.
+39. git checkout -b dev1 origin/dev1 // get the remote branch dev1 to local2
+then **git add, git commit -m "xxx", git push origin dev1**
+40. git pull // get the remote dev1, which the local2 changed
+41. git branch --set-upstream-to=origin/dev1 dev1 // when git pull failed, no tracking information
+then build contact dev1 in local1 with remote dev1. then **git pull**.
+maybe conflict create. then solve the conflict use **git add and commit**
+42. 
+
 
 
